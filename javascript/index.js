@@ -2,12 +2,9 @@
 const carrentPage = window.location.href.toString().split(window.location.host)[1];
 
 //if carrentpage = /index.html  not clear code locakstorage.clear()
-
-
-if (carrentPage == '/index.html' || carrentPage == '/' || carrentPage == '/rps.github.io/') {
+if (carrentPage == '/index.html' || carrentPage == '/' || carrentPage == '/rps.github.io/' || carrentPage == '/rps.github.io/index.html') {
     localStorage.clear();
 }
-
 
 new TxtAnime('.title', {
     effect: 'txt-an-3',
