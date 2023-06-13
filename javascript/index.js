@@ -4,7 +4,7 @@ const carrentPage = window.location.href.toString().split(window.location.host)[
 //if carrentpage = /index.html  not clear code locakstorage.clear()
 
 
-if (carrentPage == '/index.html' || carrentPage == '/') {
+if (carrentPage == '/index.html' || carrentPage == '/' || carrentPage == '/rps.github.io/') {
     localStorage.clear();
 }
 
